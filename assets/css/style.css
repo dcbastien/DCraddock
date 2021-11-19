@@ -26,15 +26,15 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1376px) {
   body::before {
     background-attachment: fixed;
   }
 }
 
-@media (max-width: 800px) {
-  body {
-    background-color: black;
+@media (min-width: 100px) and (max-width: 1375px) {
+  body::before{
+    background:#040404 url("../img/Doug.jpeg") center no-repeat;;
   }
 }
 
