@@ -32,6 +32,12 @@ body::before {
   }
 }
 
+@media (max-width: 800px) {
+  body {
+    background-color: black;
+  }
+}
+
 a {
   color:rgb(190, 28, 28);
   text-decoration: none;
